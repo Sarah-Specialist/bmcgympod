@@ -1,0 +1,28 @@
+html, body {
+  background-color: #FFCC00;
+}
+
+.App {
+  text-align: center;
+  background-image: url("https://www.thegympod.com/wp-content/uploads/2021/06/DSC08227.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 100px;
+  width: 100%;
+  height: 85vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 100px;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.navbar .pages:hover {
+  font-weight: bold;
+}
