@@ -2,6 +2,7 @@
     background-color: #FFCC00;
     width: 100vw;
     height: 80px;
+    position: relative;
 }
 
 .logo {

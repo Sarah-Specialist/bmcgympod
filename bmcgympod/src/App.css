@@ -7,6 +7,10 @@ html, body {
   text-align: center;
 }
 
+.main-app {
+  margin-top: 20px;
+}
+
 .navbar {
   position: absolute;
   top: 0;
@@ -22,5 +26,33 @@ html, body {
 }
 
 .navbar .pages:hover {
+  font-weight: bold;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  left: 25.5%;
+  top: 15%;
+  height: 220px;
+  width: 130px;
+  background-color: #FFCC00;
+}
+
+.subnav.active {
+  display: block;
+  position: absolute;
+  left: 25.5%;
+  top: 15%;
+  height: 220px;
+  width: 130px;
+  background-color: #FFCC00;
+}
+
+.sub-pages {
+  color: black;
+}
+
+.sub-pages:hover {
   font-weight: bold;
 }
