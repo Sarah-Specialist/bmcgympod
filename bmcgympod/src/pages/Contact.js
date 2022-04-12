@@ -17,10 +17,12 @@ export default function Contact() {
   };
 
   return (
+      <div className="contact">
+      <h1 className="title">Contact us</h1>
     <form ref={form} onSubmit={sendEmail} className="form">
         <div className="name">
             <label>Name:</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" autofocus />
         </div>
       <div className="email">
           <label>Email:</label>
@@ -32,5 +34,6 @@ export default function Contact() {
       </div>
       <input type="submit" value="Send" className="submit" />
     </form>
+    </div>
   );
 };

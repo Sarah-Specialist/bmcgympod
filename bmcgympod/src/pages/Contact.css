@@ -1,5 +1,14 @@
+.contact {
+    background-color: papayawhip;
+    height: 100vh;
+}
+
+.title {
+    padding-top: 10px;
+}
+
 .form {
-    margin: 200px 0 0 200px;
+    margin: 50px 0 0 350px;
     text-align: left;
 }
 
@@ -11,24 +20,41 @@
 
 .name input {
     margin-left: 25px;
+    background-color: #FFCC00;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 200px;
 }
 
 .email input{
     margin-left: 29px;
+    background-color: #FFCC00;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 200px;
 }
 
-.message textarea {
-    margin-left: 5px;
+.message label {
+    position: relative;
+    top: -180px;
 }
 
 .message textarea {
     width: 400px;
     height: 200px;
+    margin-left: 5px;
+    background-color: #FFCC00;
+    border: 1px solid grey;
+    border-radius: 2px;
 }
 
 .submit {
     position: relative;
-    left: 40%;
+    left: 30%;
+    background-color: #FFCC00;
+    border: 1px solid #FFCC00;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 .submit:hover {

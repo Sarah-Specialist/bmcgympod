@@ -1,0 +1,54 @@
+.welcome {
+    background-color: #9153C1;
+    color: white;
+    opacity: 90%;
+    height: 350px;
+    width: 700px;
+    border: 1px solid #9153C1;
+    border-radius: 10px;
+    position: relative;
+    left: 23%;
+}
+
+.welcome h2 {
+    font-size: 20px;
+    color: #FFCC00;
+}
+
+.welcome-name,
+.welcome-email {
+    padding: 0 20px;
+}
+
+.welcome-name label,
+.welcome-email label {
+    padding-right: 5px;
+    color: #FFCC00;
+}
+
+.welcome-submit {
+    background-color: #FFCC00;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 2px 5px;
+}
+
+.welcome-submit:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.promo-code {
+    padding: 40px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFCC00;
+    display: none;
+    transition: 350ms;
+}
+
+.promo-code.active{
+    display: block;
+    transition: 350ms;
+}
