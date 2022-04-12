@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import Socials from '../components/Socials';
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 
@@ -19,6 +20,14 @@ export default function Contact() {
   return (
       <div className="contact">
       <h1 className="title">Contact us</h1>
+      <div className="contact-info">
+        <h2>You can also reach us at:</h2>
+        <p>Email: thegympod.bmc@gmail.com</p>
+        <p>WhatsApp: 9*******</p>
+        <div className="contact-socials">
+          <Socials />
+        </div>
+      </div>
     <form ref={form} onSubmit={sendEmail} className="form">
         <div className="name">
             <label>Name:</label>

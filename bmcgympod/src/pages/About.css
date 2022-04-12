@@ -1,4 +1,11 @@
 .about {
     background-color: papayawhip;
     height: 100vh;
+    padding: 0 200px;
+}
+
+.about h2 {
+    color: #FFCC00;
+    font-size: 28px;
+    text-shadow: 1px 1px grey;
 }

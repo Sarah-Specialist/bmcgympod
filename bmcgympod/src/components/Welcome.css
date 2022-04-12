@@ -10,6 +10,10 @@
     left: 23%;
 }
 
+.welcome-title {
+    text-shadow: 2px 2px grey;
+}
+
 .welcome h2 {
     font-size: 20px;
     color: #FFCC00;
@@ -26,12 +30,18 @@
     color: #FFCC00;
 }
 
+.welcome-name input,
+.welcome-email input {
+    border: 1px solid #FFCC00;
+    border-radius: 3px;
+}
+
 .welcome-submit {
     background-color: #FFCC00;
     border: 1px solid grey;
     border-radius: 3px;
     margin-top: 10px;
-    padding: 2px 5px;
+    padding: 5px 8px;
 }
 
 .welcome-submit:hover {
