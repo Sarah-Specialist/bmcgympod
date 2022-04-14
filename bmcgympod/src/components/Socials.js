@@ -10,10 +10,10 @@ export default function Socials() {
                     style={{height: 30, width: 30}}
                     />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/the_gym_pod_bmc/">
                 <img src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg"
                     alt="instagram"
-                    className="intragram"
+                    className="instagram"
                     style={{height: 30, width: 30}}
                     />
             </a>

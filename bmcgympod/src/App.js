@@ -10,6 +10,7 @@ import BookAppointment from './pages/BookAppointment';
 import AccessPod from './pages/AccessPod';
 import GetFit from './pages/GetFit';
 import EndSession from './pages/EndSession';
+import SaveMoney from './pages/SaveMoney';
 import Promotions from './pages/Promotions';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
@@ -23,7 +24,7 @@ function App() {
 
     setTimeout(function() {
       setMenu(false)
-    }, 5000);
+    }, 4000);
   }
 
   return (
@@ -54,6 +55,9 @@ function App() {
             <p>
               <Link to="/end-session" style={{textDecoration: "none"}} className="sub-pages">End session</Link>
             </p>
+            <p>
+              <Link to="/save-money" style={{textDecoration: "none"}} className="sub-pages">Save Money</Link>
+            </p>
           </nav>
           <div className="main-app">         
             <Switch>
@@ -65,6 +69,7 @@ function App() {
                 <Route path="/access-pod"><AccessPod /></Route>
                 <Route path="/get-fit"><GetFit /></Route>
                 <Route path="/end-session"><EndSession /></Route>
+                <Route path="/save-money"><SaveMoney /></Route>
               <Route path="/promotions"><Promotions /></Route>
               <Route path="/blog"><Blog /></Route>
               <Route path="/contact"><Contact /></Route>

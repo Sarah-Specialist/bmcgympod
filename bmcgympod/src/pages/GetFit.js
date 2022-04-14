@@ -1,4 +1,5 @@
 import './GetFit.css';
+import Socials from '../components/Socials'
 
 export default function GetFit() {
     return (
@@ -26,6 +27,8 @@ export default function GetFit() {
                 height="350"
                 width="400"
             />
+            <h2>Get advice and share with the BMC community</h2>
+            <Socials />
         </div>
         
     )

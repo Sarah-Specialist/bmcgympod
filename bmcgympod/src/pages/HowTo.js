@@ -30,7 +30,11 @@ export default function HowTo() {
                     <h2>End session</h2>
                 </div>
             </a>
-            
+            <a href="#" style={{textDecoration: 'none'}}>
+                <div className="sub-navigation">
+                    <h2>Save Money</h2>
+                </div>
+            </a>
         </div>
     )
 }

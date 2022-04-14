@@ -12,8 +12,8 @@ export default function BookAppointment() {
                 width="250"
             />
             <h2>Step Two: Select your gym sessions</h2>
-            <img src="https://i.ibb.co/nLNDHJC/IMG-8359.jpg"
-                alt="survey page"
+            <img src="https://i.ibb.co/vvfgWrn/image-6487327-3.jpg"
+                alt="select sessions"
                 height="350"
                 width="250"
             />

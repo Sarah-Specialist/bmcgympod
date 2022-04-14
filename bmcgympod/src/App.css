@@ -31,12 +31,6 @@ html, body {
 
 .subnav {
   display: none;
-  position: absolute;
-  left: 25.5%;
-  top: 15%;
-  height: 220px;
-  width: 130px;
-  background-color: #FFCC00;
 }
 
 .subnav.active {
@@ -44,7 +38,7 @@ html, body {
   position: absolute;
   left: 25.5%;
   top: 15%;
-  height: 220px;
+  height: 260px;
   width: 130px;
   background-color: #FFCC00;
 }
