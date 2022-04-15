@@ -2,3 +2,9 @@
     background-color: papayawhip;
     height: 100vh;
 }
+
+.article-title {
+    color: #FFCC00;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}

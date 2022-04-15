@@ -1,10 +1,13 @@
 import './GetFit.css';
+import Equipment from '../components/Equipment';
 import Socials from '../components/Socials'
 
 export default function GetFit() {
     return (
         <div className="get-fit">
             <h1>Get Fit with us!</h1>
+            <h2>Continue your usual routine with our amazing equipment</h2>
+            <Equipment />
             <h2>Don't have your own routine to follow?</h2>
             <h2>No worries! Watch our curated videos for all levels of intensities!</h2>
             <span>
