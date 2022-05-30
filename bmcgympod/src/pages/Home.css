@@ -1,9 +1,22 @@
+.heroDiv {
+    width: 100vw;
+    background-color: #FEC93D;
+}
+
 .hero-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height: 100%;
+    width: 50vw;
+    height: 90vh;
+}
+
+.location {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .schedule {

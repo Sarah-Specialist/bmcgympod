@@ -24,6 +24,20 @@ export default function Socials() {
                     style={{height: 30, width: 30}}
                     />
             </a>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                    alt="linked in"
+                    className="linkedin"
+                    style={{height: 30, width: 30, backgroundColor: "white"}}
+                    />
+            </a>
+            <a href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
+                    alt="telegram"
+                    className="telegram"
+                    style={{height: 30, width: 30, marginLeft: 12}}
+                    />
+            </a>
         </span>
     )
 }

@@ -4,6 +4,7 @@
 
 .facebook,
 .instagram,
-.twitter {
-    padding: 0 15px;
+.twitter,
+.linkedin {
+    margin: 0 10px;
 }

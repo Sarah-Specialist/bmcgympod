@@ -22,8 +22,8 @@ export default function Contact() {
       <h1 className="title">Contact us</h1>
       <div className="contact-info">
         <h2>You can also reach us at:</h2>
-        <p>Email: thegympod.bmc@gmail.com</p>
-        <p>WhatsApp: 9*******</p>
+        <p>gympodexperience@gmail.com</p><br />
+        <h2>We would love to hear from you!</h2>
         <div className="contact-socials">
           <Socials />
         </div>

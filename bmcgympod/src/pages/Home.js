@@ -4,13 +4,22 @@ import Equipment from '../components/Equipment';
 export default function Home() {
     return (
         <>
-            <img src="https://www.thegympod.com/wp-content/uploads/2021/06/DSC08227.jpg"
+        <div className="heroDiv">
+            <img src="https://i.ibb.co/zQwVTGc/logo1.jpg"
                     alt="hero image"
                     className="hero-image"
+                    height="10"
+                    width="100"
+            />
+        </div>
+        <h1>The Gym Pod @ 163 Bukit Merah Central</h1>
+        <p>(Above Bukit Merah Central Food Centre)</p><br />
+        <img src="https://www.thegympod.com/wp-content/uploads/2021/06/DSC08227.jpg"
+                    alt="location"
+                    className="location"
             /><br />
-            <h1>The Gym Pod @ Bukit Merah Central</h1>
             <h2>What makes us UNIQUE?</h2>
-            <h3>Ideal for working professionals</h3>
+            <h3>1. Ideal for working professionals</h3>
             <table className="schedule">
                 <tr>
                     <th>Variation 1: Before Work</th>
@@ -42,7 +51,7 @@ export default function Home() {
                     </td>
                 </tr>
             </table>
-            <h3>All the equipment you need!</h3>
+            <h3>2. All the equipment you need</h3>
             <Equipment />
             <p>hello</p>
         </>
