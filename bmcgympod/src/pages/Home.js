@@ -51,7 +51,7 @@ export default function Home() {
                     </td>
                 </tr>
             </table>
-            <h3>2. All the equipment you need</h3>
+            <h3 className="unique2">2. All the equipment you need</h3>
             <Equipment />
             <p>hello</p>
         </>

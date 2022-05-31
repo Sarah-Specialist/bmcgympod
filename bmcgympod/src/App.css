@@ -41,6 +41,7 @@ html, body {
   height: 260px;
   width: 130px;
   background-color: #FFCC00;
+  z-index: 1;
 }
 
 .sub-pages {
