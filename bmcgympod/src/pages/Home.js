@@ -18,7 +18,7 @@ export default function Home() {
                     alt="location"
                     className="location"
             /><br />
-            <h2>What makes us UNIQUE?</h2>
+            <h2><u>What makes us UNIQUE?</u></h2><br />
             <h3>1. Ideal for working professionals</h3>
             <table className="schedule">
                 <tr>
@@ -50,7 +50,7 @@ export default function Home() {
                         <b>05:00PM</b>&nbsp;&nbsp;&nbsp;End work<br />
                     </td>
                 </tr>
-            </table>
+            </table><br />
             <h3 className="unique2">2. All the equipment you need</h3>
             <Equipment />
             <p>hello</p>
