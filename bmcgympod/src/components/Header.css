@@ -5,12 +5,6 @@
     position: relative;
 }
 
-.logo {
-    position: absolute;
-    top: 0;
-    left: 1%;
-}
-
 .header-socials {
     float: right;
     padding: 35px 30px 0 0;

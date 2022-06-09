@@ -4,7 +4,7 @@ export default function HowTo() {
 
     return (
         <div className="how-to">
-            <h1 className="title">How To</h1>
+            <h1 className="title"><u><i>How To</i></u></h1>
             <a href="#" style={{textDecoration: 'none'}}>
                 <div className="sub-navigation">
                     <h2>Get Started</h2>

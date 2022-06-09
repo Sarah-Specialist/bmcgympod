@@ -16,7 +16,7 @@ html, body {
   top: 0;
   display: flex;
   flex-direction: row;
-  padding: 35px 100px 35px 120px;
+  padding: 35px 100px 35px 30px;
   gap: 50px;
   font-size: 20px;
 }
@@ -36,7 +36,7 @@ html, body {
 .subnav.active {
   display: block;
   position: absolute;
-  left: 25.5%;
+  left: 18%;
   top: 15%;
   height: 260px;
   width: 130px;

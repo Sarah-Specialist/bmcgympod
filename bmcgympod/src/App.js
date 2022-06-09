@@ -14,6 +14,7 @@ import SaveMoney from './pages/SaveMoney';
 import Promotions from './pages/Promotions';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -77,6 +78,7 @@ function App() {
             </Switch>
           </div>
         </Router>
+        <Footer />
     </div>
   );
 }

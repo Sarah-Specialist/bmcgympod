@@ -19,7 +19,7 @@ export default function Contact() {
 
   return (
       <div className="contact">
-      <h1 className="title">Contact us</h1>
+      <h1 className="title"><u><i>Contact us</i></u></h1>
       <div className="contact-info">
         <h2>You can also reach us at:</h2>
         <p>gympodexperience@gmail.com</p><br />

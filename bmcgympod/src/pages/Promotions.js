@@ -5,7 +5,7 @@ export default function Promotions() {
     return (
         <>
             <div className="promotions">
-            <h1 className="promotions-title">Promotions</h1>
+            <h1 className="title"><u><i>Promotions</i></u></h1>
                 <Welcome />
             </div>
         </>
