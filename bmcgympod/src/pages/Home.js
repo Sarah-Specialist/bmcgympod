@@ -53,7 +53,11 @@ export default function Home() {
             </table><br />
             <h3 className="unique2">2. All the equipment you need</h3>
             <Equipment />
-            <p>hello</p>
+            <h3>3. We keep you safe by keeping it clean!</h3>
+            <img src="https://i.ibb.co/nwcbvKS/Picture2.jpg" alt="cleaning" height="200" width="220"/>
+            <img src="https://i.ibb.co/0Kms9ny/Untitled.jpg" alt="pest control" height="200" width="180"/>
+            <img src="https://i.ibb.co/C6257LQ/Untitled2.jpg" alt="high touch point" height="200" width="200"/>
+            <h4 className="cleaning">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily Cleaning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pest Control&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Focused Sanitization</h4>
         </>
     )
 }

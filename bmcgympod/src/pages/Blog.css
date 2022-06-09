@@ -12,3 +12,7 @@
     font-size: 40px;
     text-shadow: 3px 3px black;
 }
+
+article {
+    padding: 0 100px;
+}
