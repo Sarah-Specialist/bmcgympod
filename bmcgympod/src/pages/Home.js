@@ -12,14 +12,12 @@ export default function Home() {
                     width="100"
             />
         </div>
-        <img src="https://i.ibb.co/tJcB8Sc/Whats-App-Image-2022-06-22-at-8-58-23-PM.jpg"
-                    alt="location"
-                    className="location"
-            /><br /><br />
-            <h1>The Gym Pod @ 163 Bukit Merah Central</h1>
-            <p>(Above Bukit Merah Central Food Centre)</p><br />
+        <img src="https://i.ibb.co/T4TfS94/Whats-App-Image-2022-06-21-at-12-00-40-PM-1.jpg"
+            alt="banner"
+            width="100%"
+        />
             <h2><u>What makes us UNIQUE?</u></h2><br />
-            <h3>1. Ideal for working professionals</h3>
+            <h3>Ideal for working professionals</h3>
             <table className="schedule">
                 <tr>
                     <th>Variation 1: Before Work</th>
@@ -51,13 +49,10 @@ export default function Home() {
                     </td>
                 </tr>
             </table><br />
-            <h3 className="unique2">2. All the equipment you need</h3>
+            <h3 className="unique2">All the equipment you need</h3>
             <Equipment />
-            <h3>3. We keep you safe by keeping it clean!</h3>
-            <img src="https://i.ibb.co/nwcbvKS/Picture2.jpg" alt="cleaning" height="200" width="220"/>
-            <img src="https://i.ibb.co/0Kms9ny/Untitled.jpg" alt="pest control" height="200" width="180"/>
-            <img src="https://i.ibb.co/C6257LQ/Untitled2.jpg" alt="high touch point" height="200" width="200"/>
-            <h4 className="cleaning">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daily Cleaning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pest Control&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Focused Sanitization</h4>
+            <h2>Book your gym session now!</h2>
+            
         </>
     )
 }

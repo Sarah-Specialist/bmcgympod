@@ -22,7 +22,7 @@ export default function Home() {
   return (
       <div className="welcome">
       <h1 className="welcome-title">Welcome Gift</h1>
-      <h2>Enter your name and email to receive $4 off your first session!</h2>
+      <h2>Enter your name and email to receive 50% off your first session!</h2>
         <form ref={form} onSubmit={sendEmail} className="welcome-form">
         <div>
         <span className="welcome-name">
@@ -36,7 +36,7 @@ export default function Home() {
       </div><br /><br />
       <input type="submit" value="Join the BMC community!" className="welcome-submit" onClick={handlePromo} />
     </form>
-    <div className={show ? "promo-code active" : "promo-code"}>Your promotion code is: TGPHAPPYNESS</div>
+    <div className={show ? "promo-code active" : "promo-code"}>Your promotion code is: TGPHAPPINESS</div>
     </div>
   );
 };

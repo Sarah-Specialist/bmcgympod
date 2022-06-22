@@ -3,7 +3,7 @@ import './Socials.css';
 export default function Socials() {
     return (
         <span className="socials">
-            <a href="https://www.facebook.com/Gym-Pod-Experience-115585061160023/">
+            <a href="https://www.facebook.com/Gym-Pod-Experience-115585061160023">
                 <img src="https://buffer.com/library/content/images/library/wp-content/uploads/2016/03/FB-f-Logo__blue_144.png"
                     alt="facebook"
                     className="facebook"

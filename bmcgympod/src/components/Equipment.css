@@ -9,3 +9,27 @@
     padding: 30px;
     margin-top: -20px;
 }
+
+@keyframes rowone {
+    0% {left: 100%}
+    100% {left: 00%}
+}
+
+.rowone {
+    position: relative;
+    animation-name: rowone;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes rowtwo {
+    0% {right: 100%}
+    100% {right: 0%}
+}
+
+.rowtwo {
+    position: relative;
+    animation-name: rowtwo;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}

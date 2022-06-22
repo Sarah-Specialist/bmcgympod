@@ -3,7 +3,7 @@ import './Equipment.css';
 export default function Equipment() {
     return (
         <div className="equipment">
-            <div>
+            <div className="rowone">
                 <img src="https://i.ibb.co/BqT1qKn/gp-bike.jpg" alt="exercise bike" />
                 <img src="https://i.ibb.co/C5trMgV/gp-treadmill.jpg" alt="treadmill" />
                 <img src="https://i.ibb.co/k8CMN2x/gp-smart-mirror.jpg" alt="smart mirror" />
@@ -11,7 +11,7 @@ export default function Equipment() {
                 <img src="https://i.ibb.co/47krg7r/gp-resistance-band.jpg" alt="resistance band" />
                 
             </div>
-            <div>
+            <div className="rowtwo">
                 <img src="https://i.ibb.co/ns82tYz/gp-power-rack.jpg" alt="power rack" />
                 <img src="https://i.ibb.co/JRz18nb/gp-chin-up.jpg" alt="chin up bar" />
                 <img src="https://i.ibb.co/kXy179D/gp-ez-bar.jpg" alt="E Z bar" />

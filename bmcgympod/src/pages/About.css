@@ -4,12 +4,23 @@
 
 .about {
     background-color: papayawhip;
-    height: 100vh;
-    padding: 0 200px 50px 200px;
+    height: auto;
+    padding: 0 200px 0 200px;
 }
 
 .about h2 {
     color: #FFCC00;
     font-size: 28px;
     text-shadow: 1px 1px grey;
+}
+
+.location {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 150vh;
+    position: relative;
+    margin-left: -25%;
+    overflow-y: hidden;
 }

@@ -4,5 +4,17 @@
 
 .promotions {
     background-color: papayawhip;
-    height: 90vh;
+    height: auto;
+}
+
+.promotion1 {
+    background-color: aquamarine;
+    padding: 20px;
+    height: auto;
+    width: 800px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    position: relative;
+    left: 18%;
+    margin-bottom: 30px;
 }

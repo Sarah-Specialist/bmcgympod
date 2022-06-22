@@ -18,6 +18,10 @@ export default function About() {
             <p>Bukit Merah Central has a community of healthy residents and hard-working professionals. 
                 The Gym Pod @ 163 Bukit Merah Central provides working professionals with an avenue to exercise before and after work, or even during their lunchtime. 
                 The private gym helps local residents achieve a healthier lifestyle.</p>
+            <img src="https://i.ibb.co/tJcB8Sc/Whats-App-Image-2022-06-22-at-8-58-23-PM.jpg"
+                    alt="location"
+                    className="location"
+            />
         </div>
     )
 }
