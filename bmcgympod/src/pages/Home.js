@@ -12,12 +12,12 @@ export default function Home() {
                     width="100"
             />
         </div>
-        <h1>The Gym Pod @ 163 Bukit Merah Central</h1>
-        <p>(Above Bukit Merah Central Food Centre)</p><br />
-        <img src="https://www.thegympod.com/wp-content/uploads/2021/06/DSC08227.jpg"
+        <img src="https://i.ibb.co/tJcB8Sc/Whats-App-Image-2022-06-22-at-8-58-23-PM.jpg"
                     alt="location"
                     className="location"
-            /><br />
+            /><br /><br />
+            <h1>The Gym Pod @ 163 Bukit Merah Central</h1>
+            <p>(Above Bukit Merah Central Food Centre)</p><br />
             <h2><u>What makes us UNIQUE?</u></h2><br />
             <h3>1. Ideal for working professionals</h3>
             <table className="schedule">

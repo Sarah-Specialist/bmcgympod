@@ -36,7 +36,7 @@ export default function Home() {
       </div><br /><br />
       <input type="submit" value="Join the BMC community!" className="welcome-submit" onClick={handlePromo} />
     </form>
-    <div className={show ? "promo-code active" : "promo-code"}>Your promotion code is: GYMHAPPYNESS</div>
+    <div className={show ? "promo-code active" : "promo-code"}>Your promotion code is: TGPHAPPYNESS</div>
     </div>
   );
 };

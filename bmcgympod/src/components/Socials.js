@@ -25,17 +25,10 @@ export default function Socials() {
                     />
             </a>
             <a href="#">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                    alt="linked in"
-                    className="linkedin"
+                <img src="https://seeklogo.com/images/T/tiktok-share-icon-black-logo-29FFD062A0-seeklogo.com.png"
+                    alt="tik tok"
+                    className="tiktok"
                     style={{height: 30, width: 30, backgroundColor: "white"}}
-                    />
-            </a>
-            <a href="#">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
-                    alt="telegram"
-                    className="telegram"
-                    style={{height: 30, width: 30, marginLeft: 12}}
                     />
             </a>
         </span>
