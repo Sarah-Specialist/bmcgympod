@@ -6,7 +6,7 @@ export default function Home() {
         <>
         <div className="heroDiv">
             <img src="https://i.ibb.co/zQwVTGc/logo1.jpg"
-                    alt="hero image"
+                    alt="hero"
                     className="hero-image"
                     height="10"
                     width="100"

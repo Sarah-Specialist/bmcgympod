@@ -24,7 +24,7 @@ export default function Socials() {
                     style={{height: 30, width: 30}}
                     />
             </a>
-            <a href="#">
+            <a href="https://www.tiktok.com/@gympodexperience">
                 <img src="https://seeklogo.com/images/T/tiktok-share-icon-black-logo-29FFD062A0-seeklogo.com.png"
                     alt="tik tok"
                     className="tiktok"
