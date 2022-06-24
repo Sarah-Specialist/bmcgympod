@@ -51,8 +51,9 @@ export default function Home() {
             </table><br />
             <h3 className="unique2">All the equipment you need</h3>
             <Equipment />
+            <h2>Download the app</h2>
             <h2>Book your gym session now!</h2>
-            
+            <img src="https://i.ibb.co/Fhfnvf9/The-Gym-Pod-App.png" alt="app" height="300" width="300" /><br /><br />
         </>
     )
 }

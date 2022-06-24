@@ -34,23 +34,7 @@ export default function GetStarted() {
                 height="350"
                 width="250"
             />
-            <h2>Step Four: Obtain a copy of your vaccination records from HealthHub</h2>
-            <h2>and upload it onto The Gym Pod app</h2>
-            <span>
-                <img src="https://i.ibb.co/PmN70qk/IMG-8360.jpg"
-                    alt="side menu"
-                    height="350"
-                    width="250"
-                    style={{marginRight: 50}}
-                />
-                <img src="https://i.ibb.co/2q9MYTP/IMG-8361.jpg"
-                    alt="vaccination"
-                    height="350"
-                    width="250"
-                    style={{marginLeft: 50}}
-                />
-            </span>
-            <h2>Step Five: Add a payment method for convenience</h2>
+            <h2>Step Four: Add a payment method for convenience</h2>
             <span>
                 <img src="https://i.ibb.co/R0mPgJ4/IMG-8369.jpg"
                     alt="profile page"

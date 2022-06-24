@@ -6,23 +6,30 @@ export default function BookAppointment() {
             <h1>Book your appointment!</h1>
             <h2>Step One: Find The Gym Pod @ Bukit Merah Central &</h2>
             <h2>tap the &#10084; to save your favourite pod</h2>
-            <img src="https://i.ibb.co/sjS5Lzy/IMG-8363.jpg"
+            <img src="https://i.ibb.co/2WCKNvC/Whats-App-Image-2022-06-24-at-10-20-51-AM.jpg"
                 alt="favourite"
                 height="350"
                 width="250"
             />
             <h2>Step Two: Select your gym sessions</h2>
-            <img src="https://i.ibb.co/vvfgWrn/image-6487327-3.jpg"
+            <img src="https://i.ibb.co/bbS4rKk/Whats-App-Image-2022-06-24-at-10-20-52-AM.jpg"
                 alt="select sessions"
                 height="350"
                 width="250"
             />
             <h2>Step Three: Confirm your booking details and proceed</h2>
-            <img src="https://i0.wp.com/financeandtoast.com/wp-content/uploads/2020/09/IMG_2944.jpg?resize=175%2C300&ssl=1"
+            <img src="https://i.ibb.co/ZSFLTsm/Whats-App-Image-2022-06-24-at-10-20-52-AM-1.jpg"
                     alt="order details"
                 height="350"
                 width="250"
                 style={{marginRight: 50}}
+            />
+            <h2>Done!</h2>
+            <img src="https://i.ibb.co/1R052xQ/Whats-App-Image-2022-06-24-at-10-20-53-AM.jpg"
+            alt="booked"
+            height="350"
+            width="250"
+            style={{marginRight: 50}}
             />
         </div>
     )
