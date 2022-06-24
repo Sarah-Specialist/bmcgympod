@@ -71,6 +71,7 @@ function App() {
               <Route path="/how-to"><HowTo /></Route>
                 <Route path="/get-started"><GetStarted /></Route>
                 <Route path="/book-appointment"><BookAppointment /></Route>
+                <Route path="/update-appointment"><UpdateAppointment /></Route>
                 <Route path="/access-pod"><AccessPod /></Route>
                 <Route path="/get-fit"><GetFit /></Route>
                 <Route path="/end-session"><EndSession /></Route>
