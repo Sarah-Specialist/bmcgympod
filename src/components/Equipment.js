@@ -12,6 +12,7 @@ export default function Equipment() {
                 
             </div>
             <div className="rowtwo">
+                <img src="https://i.ibb.co/6Jf18dr/Whats-App-Image-2022-06-24-at-11-10-38-AM.jpg" alt="cable pulley" height="100" width="150" />
                 <img src="https://i.ibb.co/ns82tYz/gp-power-rack.jpg" alt="power rack" />
                 <img src="https://i.ibb.co/JRz18nb/gp-chin-up.jpg" alt="chin up bar" />
                 <img src="https://i.ibb.co/kXy179D/gp-ez-bar.jpg" alt="E Z bar" />
