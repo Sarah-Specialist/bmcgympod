@@ -15,6 +15,11 @@ export default function HowTo() {
                     <h2>Book an appointment</h2>
                     </div>
                 </a>
+                <a href="https://gympodexperience.netlify.app/update-appointment">
+                    <div className="sub-navigation">
+                    <h2>Update an appointment</h2>
+                    </div>
+                </a>
                 <a href="https://gympodexperience.netlify.app/access-pod">
                     <div className="sub-navigation">
                     <h2>Access the pod</h2>

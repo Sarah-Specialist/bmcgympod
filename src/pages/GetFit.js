@@ -31,7 +31,7 @@ export default function GetFit() {
                 width="400"
             />
             <h2>Get advice and share with the BMC community</h2>
-            <Socials />
+            <Socials /><br /><br />
         </div>
         
     )

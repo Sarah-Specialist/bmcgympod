@@ -22,14 +22,12 @@ export default function BookAppointment() {
                     alt="order details"
                 height="350"
                 width="250"
-                style={{marginRight: 50}}
             />
             <h2>Done!</h2>
             <img src="https://i.ibb.co/1R052xQ/Whats-App-Image-2022-06-24-at-10-20-53-AM.jpg"
             alt="booked"
             height="350"
             width="250"
-            style={{marginRight: 50}}
             />
         </div>
     )

@@ -7,6 +7,7 @@ import About from './pages/About';
 import HowTo from './pages/HowTo';
 import GetStarted from './pages/GetStarted';
 import BookAppointment from './pages/BookAppointment';
+import UpdateAppointment from './pages/UpdateAppointment';
 import AccessPod from './pages/AccessPod';
 import GetFit from './pages/GetFit';
 import EndSession from './pages/EndSession';
@@ -46,6 +47,9 @@ function App() {
             </p>
             <p>
               <Link to="/book-appointment" style={{textDecoration: "none"}} className="sub-pages">Book an appointment</Link>
+            </p>
+            <p>
+              <Link to="/update-appointment" style={{textDecoration: "none"}} className="sub-pages">Update an appointment</Link>
             </p>
             <p>
               <Link to="/access-pod" style={{textDecoration: "none"}} className="sub-pages">Access the pod</Link>

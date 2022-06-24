@@ -2,3 +2,12 @@
     background-color: papayawhip;
     height: 100%;
 }
+
+.sub-navigation {
+    height: 45px;
+    width: auto;
+    padding: 0 10px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: -10px;
+}
