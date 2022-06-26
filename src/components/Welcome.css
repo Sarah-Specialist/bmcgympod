@@ -62,3 +62,11 @@
     display: block;
     transition: 350ms;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .welcome {
+        width: 85vw;
+        left: 2%;
+    }
+}

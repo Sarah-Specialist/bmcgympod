@@ -78,3 +78,27 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100vw;
+        height: 160vh;
+    }
+
+    .form {
+        position: absolute;
+        top: 500px;
+        left: -55%;
+    }
+
+    .message label {
+        top: 0;
+    }
+
+    .message textarea {
+        width: 300px;
+        height: 200px;
+        margin-left: 5px;
+    }
+}

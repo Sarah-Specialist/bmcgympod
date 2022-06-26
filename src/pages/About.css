@@ -24,3 +24,16 @@
     margin-left: -25%;
     overflow-y: hidden;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about {
+        padding: 0 20px;
+    }
+
+    .location {
+        width: 85vw;
+        height: 100vh;
+        margin-left: 0;
+    }
+}

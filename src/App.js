@@ -30,7 +30,13 @@ function App() {
   }
 
   const [show, setShow] = useState(false);
-  const handleMenu = () => setShow(!show)
+  function handleMenu() {
+    setShow(!show)
+
+    setTimeout(function() {
+      setShow(false)
+    }, 3000);
+  } 
 
   return (
     <div className="App">

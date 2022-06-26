@@ -28,7 +28,7 @@ export default function Home() {
         <span className="welcome-name">
           <label>Name:</label>
           <input type="text" name="user_name" required />
-        </span>
+        </span><br />
         <span className="welcome-email">
           <label>Email:</label>
           <input type="email" name="user_email" required />

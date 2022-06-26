@@ -1,5 +1,6 @@
 .heroDiv {
     width: 100vw;
+    height: auto;
     background-color: #FEC93D;
 }
 
@@ -8,13 +9,18 @@
     background-size: cover;
     background-position: center center;
     width: 50vw;
-    height: 90vh;
+    height: 100vh;
+    padding: 100px 0;
 }
 
 .schedule {
     width: 90%;
     position: relative;
     left: 5%;
+}
+
+.schedule th {
+    text-align: left;
 }
 
 .variations {

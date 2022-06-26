@@ -1,6 +1,5 @@
 import './Home.css';
 import Equipment from '../components/Equipment';
-import {useState} from 'react';
 
 export default function Home() {
 
@@ -32,9 +31,9 @@ export default function Home() {
                     <td className="variations">
                         <b>07:00AM</b>&nbsp;&nbsp;&nbsp;<span className="workout">Work out</span><br />
                         <b>07:30AM</b>&nbsp;&nbsp;&nbsp;<span className="workout">Work out</span><br />
-                        <b>08:00AM</b>&nbsp;&nbsp;&nbsp;Cool down & Clean up<br />
+                        <b>08:00AM</b>&nbsp;&nbsp;&nbsp;Cool down<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Clean up<br />
                         <b>08:30AM</b>&nbsp;&nbsp;&nbsp;Enjoy breakfast<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah Food Centre<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Food Centre<br />
                         <b>09:00AM</b>&nbsp;&nbsp;&nbsp;Time to work<br />
                     </td>
                     <td className="variations">
@@ -42,13 +41,13 @@ export default function Home() {
                         <b>05:30PM</b>&nbsp;&nbsp;&nbsp;<span className="workout">Work out</span><br />
                         <b>06:00PM</b>&nbsp;&nbsp;&nbsp;<span className="workout">Work out</span><br />
                         <b>06:30PM</b>&nbsp;&nbsp;&nbsp;Enjoy dinner<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah Food Centre<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Centre<br />
                     </td>
                     <td className="variations">
                         <b>09:00AM</b>&nbsp;&nbsp;&nbsp;Time to work<br />
                         <b>12:00NN</b>&nbsp;&nbsp;&nbsp;<span className="workout">Work out</span><br />
                         <b>12:30PM</b>&nbsp;&nbsp;&nbsp;Enjoy Lunch<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah Food Centre<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ Bukit Merah<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Food Centre<br />
                         <b>05:00PM</b>&nbsp;&nbsp;&nbsp;End work<br />
                     </td>
                 </tr>

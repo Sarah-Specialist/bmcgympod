@@ -10,6 +10,7 @@ export default function Blog() {
                 alt="shopfront"
                 height="500"
                 width="700"
+                className="article-img"
                  />
                 <p>Opening on <strong>June 25</strong>, <strong>The Gym Pod @ 163 Bukit Merah Central</strong> welcomes people from all walks of life to improve their health by<br /> exercising in comfort! 
                 You can start booking your gym sessions today!
