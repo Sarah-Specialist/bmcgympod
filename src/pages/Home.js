@@ -1,9 +1,11 @@
 import './Home.css';
 import Equipment from '../components/Equipment';
+import {useState} from 'react';
 
 export default function Home() {
+
     return (
-        <>
+        <div className="main">
         <div className="heroDiv">
             <img src="https://i.ibb.co/zQwVTGc/logo1.jpg"
                     alt="hero"
@@ -15,7 +17,9 @@ export default function Home() {
         <img src="https://i.ibb.co/T4TfS94/Whats-App-Image-2022-06-21-at-12-00-40-PM-1.jpg"
             alt="banner"
             width="100%"
+            className="banner"
         />
+        <div className="unique">
             <h2><u>What makes us UNIQUE?</u></h2><br />
             <h3>Ideal for working professionals</h3>
             <table className="schedule">
@@ -48,12 +52,17 @@ export default function Home() {
                         <b>05:00PM</b>&nbsp;&nbsp;&nbsp;End work<br />
                     </td>
                 </tr>
-            </table><br />
+            </table>
+        </div>
+            <br />
             <h3 className="unique2">All the equipment you need</h3>
             <Equipment />
-            <h2>Download the app</h2>
-            <h2>Book your gym session now!</h2>
-            <img src="https://i.ibb.co/Fhfnvf9/The-Gym-Pod-App.png" alt="app" height="300" width="300" /><br /><br />
-        </>
+            <div className="download">
+                <h2>Download the app</h2>
+                <h2>Book your gym session now!</h2>
+                <img src="https://i.ibb.co/Fhfnvf9/The-Gym-Pod-App.png" alt="app" height="300" width="300" />
+            </div>
+            <br /><br />
+        </div>
     )
 }

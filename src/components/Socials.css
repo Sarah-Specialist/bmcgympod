@@ -8,3 +8,17 @@
 .tiktok {
     margin: 0 10px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .socials {
+        padding: 0;
+    }
+
+    .facebook,
+    .instagram,
+    .twitter,
+    .tiktok {
+        margin: 0 5px;
+    }
+}

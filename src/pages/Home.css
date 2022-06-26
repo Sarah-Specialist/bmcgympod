@@ -23,27 +23,10 @@
     padding-left: 100px;
 }
 
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
 .workout {
-    color: #FFCC00;
+    color: gold;
     font-size: 20px;
     text-shadow: 3px 3px black;
-    animation-name: shake;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
 .unique2 {
@@ -52,6 +35,67 @@
     padding: 10px 0;
 }
 
-.cleaning {
-    font-size: 24px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .unique {
+        font-size: 10px;
+    }
+
+    .schedule {
+        width: 100%;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+    }
+
+    .variations {
+        padding: 0;
+    }
+
+    .workout {
+        font-size: 14px;
+    }
+
+    .unique2 {
+        font-size: 14px;
+    }
+
+    .download {
+        font-size: 9px;
+    }
+
+    .download img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }

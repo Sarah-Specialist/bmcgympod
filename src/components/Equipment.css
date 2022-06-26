@@ -1,7 +1,7 @@
 .equipment {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     width: 100%;
     height: 300px;
@@ -32,4 +32,35 @@
     animation-name: rowtwo;
     animation-duration: 2s;
     animation-delay: 2s;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .equipment {
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+        justify-content: center;
+    }
+
+    .rowone,
+    .rowtwo {
+        width: 30vw;
+    }
+
+    .equipment img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .rowone .ptx,
+    .rowtwo .cable,
+    .rowtwo .plates {
+        width: 80px;
+    }
+
+    .rowone .band {
+        width: 85px;
+    }
 }

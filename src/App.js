@@ -29,11 +29,19 @@ function App() {
     }, 4000);
   }
 
+  const [show, setShow] = useState(false);
+  const handleMenu = () => setShow(!show)
+
   return (
     <div className="App">
+      <div className="toggleMenu" onClick={handleMenu}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <Header />
         <Router>
-          <nav className="navbar">
+          <nav className={show ? "navbar active" : "navbar"}>
             <Link to="/home" style={{textDecoration: "none"}} className="pages">Home</Link>
             <Link to="/about" style={{textDecoration: "none"}} className="pages">About us</Link>
             <Link to="/how-to" style={{textDecoration: "none"}} className="pages" onMouseOver={handleMouseOver}>How to</Link>

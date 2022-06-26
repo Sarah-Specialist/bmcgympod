@@ -7,6 +7,32 @@ html, body {
   text-align: center;
 }
 
+.toggleMenu {
+  position: absolute;
+  top: 180px;
+  right: 45vw;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 20px;
+  z-index: 1;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.toggleMenu:hover {
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
 .main-app {
   margin-top: 20px;
 }
@@ -15,6 +41,7 @@ html, body {
   position: absolute;
   top: 0;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   padding: 35px 100px 35px 30px;
   gap: 50px;
@@ -50,4 +77,43 @@ html, body {
 
 .sub-pages:hover {
   font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .toggleMenu {
+    display: flex;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar.active{
+      display: flex;
+      flex-wrap: wrap;
+      transition: 350ms;
+      padding: 0;
+      margin-top: 100px;
+      gap: 30px;
+      z-index: 1;
+      background-color: #FFCC00;
+  }
+
+ .App {
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+  }
+
+  .pages {
+    width: 100vw;
+  }
+
+  .subnav.active {
+    display: none;
+  }
 }
