@@ -1,13 +1,4 @@
 .access-pod {
     background-color: papayawhip;
-    height: 100%;
-}
-
-/* Medium devices (769px to 1000px) */
-@media only screen and (min-width: 769px) and (max-width: 1000px) {
-    .access-pod {
-        margin-bottom: 500px;
-        padding: 0 0 500px 0;
-        background-color: red;
-    }
+    height: 100vh;
 }

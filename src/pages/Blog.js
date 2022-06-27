@@ -5,6 +5,11 @@ export default function Blog() {
         <div className="blog">
             <h1 className="title"><u><i>Blog</i></u></h1>
             <article>
+            <h2 className="article-title">ATX-750 Power Rack</h2>
+                <iframe src="https://www.youtube.com/watch?v=aGlDFyd2oEU" height="300" width="400"></iframe>
+                <p>Don't be intimidated by our multi-functional ATX-750 Power Rack! There are many ways you can engage different muscles using this machine. Here are some examples of workouts you can do. Come and try it out today!</p><br />
+            </article>
+            <article>
                 <h2 className="article-title">&#127881;GRAND OPENING&#127881;</h2>
                 <img src="https://i.ibb.co/kgvW1mW/Whats-App-Image-2022-06-21-at-7-56-46-PM-2.jpg" 
                 alt="shopfront"
