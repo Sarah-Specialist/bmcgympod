@@ -9,8 +9,7 @@
     background-size: cover;
     background-position: center center;
     width: 50vw;
-    height: 80vh;
-    padding: 100px 0;
+    height: 100vh;
 }
 
 .schedule {
@@ -52,6 +51,7 @@
     .hero-image {
         width: 100%;
         height: 40vh;
+        padding: 100px 0;
     }
 
     .banner {
