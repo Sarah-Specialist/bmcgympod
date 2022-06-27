@@ -10,8 +10,8 @@
     padding: 35px 30px 0 0;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
     .header {
         width: 100%;
         overflow-x: hidden;

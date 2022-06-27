@@ -19,8 +19,8 @@
     margin-bottom: 30px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
     .promotions {
         width: 100vw;
     }
@@ -28,5 +28,17 @@
     .promotion1 {
         width: 80vw;
         left: 2%;
+    }
+}
+
+/* Medium devices (769px to 1000px) */
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .promotions {
+        height: 100vh;
+    }
+
+    .promotion1 {
+        width: 80vw;
+        left: 6%;
     }
 }

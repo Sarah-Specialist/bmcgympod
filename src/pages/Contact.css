@@ -79,8 +79,8 @@
     font-weight: bold;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
     .contact {
         width: 100vw;
         height: 160vh;
@@ -90,6 +90,25 @@
         position: absolute;
         top: 500px;
         left: -55%;
+    }
+
+    .message label {
+        top: 0;
+    }
+
+    .message textarea {
+        width: 300px;
+        height: 200px;
+        margin-left: 5px;
+    }
+}
+
+/* Medium devices (769px to 1000px) */
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .form {
+        position: absolute;
+        top: 500px;
+        left: -30%;
     }
 
     .message label {

@@ -4,7 +4,7 @@ export default function SaveMoney() {
     return (
         <div className="save-money">
             <h1>Save money</h1>
-            <h2>1. Look out for ongoing exclusive promotions on the "Promotions" page</h2><br />
+            <h2>1. Look out for ongoing exclusive promotions on the "Promotions" page</h2>
             <h2>2. Invite a friend and split the cost</h2>
             <p>$9.50 for one pax</p>
             <p>$11.00 for two pax = $5.50 per pax</p>

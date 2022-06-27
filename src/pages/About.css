@@ -25,8 +25,8 @@
     overflow-y: hidden;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
     .about {
         padding: 0 20px;
     }
@@ -35,5 +35,18 @@
         width: 85vw;
         height: 100vh;
         margin-left: 0;
+    }
+}
+
+/* Medium devices (769px to 1000px) */
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .about {
+        padding: 0 80px;
+    }
+
+    .location {
+        width: 80vw;
+        height: 60vh;
+        padding: 0 160px;
     }
 }

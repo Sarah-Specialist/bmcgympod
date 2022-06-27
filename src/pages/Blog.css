@@ -17,8 +17,8 @@ article {
     padding: 0 100px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
     .article-title {
         font-size: 26px;
     }
@@ -30,5 +30,12 @@ article {
 
     article {
         padding: 0 20px;
+    }
+}
+
+/* Medium devices (769px to 1000px) */
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .article-img {
+        width: 75vw;
     }
 }

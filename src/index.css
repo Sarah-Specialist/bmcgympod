@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
   body {
     width: 100vw;
     overflow-x: hidden;
