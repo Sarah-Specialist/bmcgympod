@@ -1,14 +1,39 @@
 import './Blog.css';
+import Socials from '../components/Socials';
 
 export default function Blog() {
     return (
         <div className="blog">
             <h1 className="title"><u><i>Blog</i></u></h1>
             <article>
-            <h2 className="article-title">ATX-750 Power Rack</h2>
-                <iframe src="https://www.youtube.com/watch?v=aGlDFyd2oEU" height="300" width="400"></iframe>
-                <p>Don't be intimidated by our multi-functional ATX-750 Power Rack! There are many ways you can engage different muscles using this machine. Here are some examples of workouts you can do. Come and try it out today!</p><br />
+            <h2 className="article-title">&#128680;EXCLUSIVE PROMOTION&#128680;</h2>
+            <img src="https://i.ibb.co/9cwp0H6/grab-voucher.jpg" alt="$5 grab promo" />
+            <h2 style={{fontSize: 28}}><u>From 1 July to 14 July</u></h2>
+            <h3 style={{lineHeight:0.5}}>1. Complete <u>5</u> (30-minute) gym sessions</h3>
+            <p style={{lineHeight:0.3}}>(Yes, they can be consecutive!)</p><br />
+            <span>
+                <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
+                <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
+                <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
+                <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
+                <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
+            </span>
+            <h3>2. Send 5 photos of the PTX Smart Mirror (with name, date & time)</h3> 
+            <h3 style={{lineHeight:0.3}}>to <u>gympodexperience@gmail.com</u></h3><br />
+            <h3>3. Enjoy your FREE grab voucher!</h3><br />
+
+            <p>*Please note that the grab voucher will only be awarded to the person whose name is on the PTX Smart Mirror</p>
+            <p style={{lineHeight:0.3}}>Do remember to book using the same account, and send it to us using the same person's email</p><br />
+
+            <h2 className="promo-title"><i>GET FIT & GET REWARDED</i></h2>
+            <a href="https://apps.apple.com/sg/app/the-gym-pod/id1422481975"><img src="https://i.ibb.co/Fhfnvf9/The-Gym-Pod-App.png" alt="app" height="200" width="200" /></a>
+            <p>Download the app & Book your gym session now!</p>            
+            <br />
+            <Socials />
+            <p>Follow us on social media so that you won't miss our exclusive promotions!</p>
+            <br />
             </article>
+            <hr />
             <article>
                 <h2 className="article-title">&#127881;GRAND OPENING&#127881;</h2>
                 <img src="https://i.ibb.co/kgvW1mW/Whats-App-Image-2022-06-21-at-7-56-46-PM-2.jpg" 

@@ -17,6 +17,12 @@ article {
     padding: 0 100px;
 }
 
+.promo-title {
+    color: black;
+    text-shadow: 2px 2px #FFCC00;
+    font-size: 30px;
+}
+
 /* Extra small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
     .article-title {
