@@ -10,7 +10,7 @@ export default function Blog() {
             <img src="https://i.ibb.co/9cwp0H6/grab-voucher.jpg" alt="$5 grab promo" />
             <h2 style={{fontSize: 28}}><u>From 1 July to 14 July</u></h2>
             <h3 style={{lineHeight:0.5}}>1. Complete <u>5</u> (30-minute) gym sessions</h3>
-            <p style={{lineHeight:0.3}}>(Yes, they can be consecutive!)</p><br />
+            <p style={{lineHeight:0.5}}>(Yes, they can be consecutive!)</p><br />
             <span>
                 <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
                 <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
@@ -19,11 +19,11 @@ export default function Blog() {
                 <img src="https://i.ibb.co/RzBwch9/Smart-mirror.jpg" alt="smart mirror 1" height="200" width="200" />
             </span>
             <h3>2. Send 5 photos of the PTX Smart Mirror (with name, date & time)</h3> 
-            <h3 style={{lineHeight:0.3}}>to <u>gympodexperience@gmail.com</u></h3><br />
+            <h3 style={{lineHeight:0.5}}>to <u>gympodexperience@gmail.com</u></h3><br />
             <h3>3. Enjoy your FREE grab voucher!</h3><br />
 
             <p>*Please note that the grab voucher will only be awarded to the person whose name is on the PTX Smart Mirror</p>
-            <p style={{lineHeight:0.3}}>Do remember to book using the same account, and send it to us using the same person's email</p><br />
+            <p style={{lineHeight:0.5}}>Do remember to book using the same account, and send it to us using the same person's email</p><br />
 
             <h2 className="promo-title"><i>GET FIT & GET REWARDED</i></h2>
             <a href="https://apps.apple.com/sg/app/the-gym-pod/id1422481975"><img src="https://i.ibb.co/Fhfnvf9/The-Gym-Pod-App.png" alt="app" height="200" width="200" /></a>
