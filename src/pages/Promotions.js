@@ -7,7 +7,7 @@ export default function Promotions() {
             <div className="promotions">
             <h1 className="title"><u><i>Promotions</i></u></h1>
             <div>
-                <img src="https://i.ibb.co/LSFCRN5/grab-promo.jpg" alt="grab promo" height="400" width="400" />
+                <img src="https://i.ibb.co/LSFCRN5/grab-promo.jpg" alt="grab promo" height="400" width="600" />
             </div>
             <div className="promotion1">
                 <h2>Limited time only!</h2>
